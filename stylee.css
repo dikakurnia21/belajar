@@ -30,11 +30,47 @@ body{
     }
 }
 
-.nama{
-    font-size: 6rem;
+.nama1{
+    font-size: 4rem;
     font-weight: 900;
 }
-.nama > span{
+.nama1 > span{
+    animation: glow 2.5s ease-in-out infinite;
+}
+@keyframes glow{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+    10%, 90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+
+.dan{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.dan > span{
+    animation: glow 2.5s ease-in-out infinite;
+}
+@keyframes glow-long{
+    0%, 100%{
+        color: #fff;
+        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+    }
+    70%,90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+
+.nama2{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.nama2 > span{
     animation: glow 2.5s ease-in-out infinite;
 }
 @keyframes glow{
@@ -61,17 +97,58 @@ body{
     animation-delay: .8s;
 }
 
-.nama > span:nth-child(2){
+.nama1 > span:nth-child(2){
     animation-delay: .4s ;
 }
-.nama > span:nth-child(3){
-    animation-delay: .6s ;
+.nama1 > span:nth-child(3){
+    animation-delay: .5s ;
 }
-.nama > span:nth-child(4){
+.nama1 > span:nth-child(4){
+    animation-delay: .6s;
+}
+.nama1 > span:nth-child(5){
+    animation-delay: .7s;
+}
+.nama1 > span:nth-child(6){
     animation-delay: .8s;
 }
-.nama > span:nth-child(5){
+.nama1 > span:nth-child(7){
+    animation-delay: .9s;
+}
+.nama1 > span:nth-child(8){
     animation-delay: .10s;
+}
+
+.dan > span {
+    animation: glow-long 2.5s ease-in-out infinite;
+}
+
+.nama2 > span:nth-child(2){
+    animation-delay: .4s ;
+}
+.nama2 > span:nth-child(3){
+    animation-delay: .5s ;
+}
+.nama2 > span:nth-child(4){
+    animation-delay: .6s;
+}
+.nama2 > span:nth-child(5){
+    animation-delay: .7s;
+}
+.nama2 > span:nth-child(6){
+    animation-delay: .8s;
+}
+.nama2 > span:nth-child(7){
+    animation-delay: .9s;
+}
+.nama2 > span:nth-child(8){
+    animation-delay: .10s;
+}
+.nama2 > span:nth-child(8){
+    animation-delay: .9s;
+}
+.nama2 > span:nth-child(9){
+    animation-delay: .9s;
 }
 
 .description{
